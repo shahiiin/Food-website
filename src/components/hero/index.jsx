@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/index';
+import SideBar from '../sidebar';
 import {
     HeroContainer,
     HeroContent,
@@ -13,6 +14,7 @@ const Hero = () => {
   return (
     <HeroContainer>
         <Navbar/>
+        <SideBar/>
         <HeroContent>
             <HeroItems>
                 <HeroH1>Grates Pizza Ever</HeroH1>
