@@ -5,6 +5,7 @@ import Products from "./components/products";
 import {GlobalStyle} from './globalStyle'
 import {productData,productDataTwo} from './components/products/data'
 import Feature from "./components/feature";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Products heading='choose your favorite' data={productData}/>
       <Feature/>
       <Products heading='Sweet Treats for You' data={productDataTwo} />
+      <Footer/>
     </Router>
     </>
   
