@@ -1,12 +1,16 @@
 import React from 'react'
-import { Nav, NavLink } from './NavbarElements'
+import { Nav, NavIcon ,Bars} from './NavbarElements'
 
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <p>Pizaa</p>
+        <p>Pitzaa</p>
+        <NavIcon>
+          <p>menu</p>
+          <Bars/>
+        </NavIcon>
       </Nav>
     </>
 
